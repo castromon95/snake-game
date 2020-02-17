@@ -1,0 +1,83 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #000;
+}
+
+.container {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  text-align: center;
+  color:#fff;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.number {
+  display: block;
+}
+
+.canvas-container {
+  position: relative;
+  width: 800px;
+  height: 800px;
+}
+
+.score {
+  color: #231fd2;
+}
+
+.high-score {
+  color: #0fda0d;
+}
+
+.canvas-overlay {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 9999;
+}
+
+.overlay-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
+  width: 100%;
+}
+
+.button {
+  font-size: 24px;
+  display: inline-block;
+  font-weight:300;
+  transition: all 0.2s;
+  border-radius: 0.12em;
+  cursor: pointer;
+  background:#ab2312;
+  color:#fff;
+}
+
+.button:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+canvas {
+  border: 1px solid white;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Simple Snake Game</title>
+    <meta name="description" content="Simple snake game implementation using canvas">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1 class="title">Snake game</h1>
+        <div>
+          <span class="number"><b>Score:</b> <i class="score">0</i></span>
+          <span class="number"><b>High Score:</b> <i class="high-score">0</i></span>
+        </div>
+        <div class="canvas-container">
+          <div class="canvas-overlay">
+            <div class="overlay-container">
+              <button class="button" onclick="startGame();">Play Again</button>
+            </div>
+          </div>
+          <canvas width="800" height="800" id="snake"></canvas>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
